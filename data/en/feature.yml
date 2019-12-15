@@ -2,15 +2,15 @@
 feature:
   enable : true
   image : images/about/about-business-man.jpg
-  title : We’re A Digital Design Agency.
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi."
+  title : YD Architecture
+  content : "YD Architecture is a Belgium based architecture agency providing a panel of appropriate solutions in the process of a construction project."
   feature_Item : 
     - icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      title : SEO Optimized
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      title : Measuring mission
+      content : We take care of the precise measuring of your own land(s) or building(s) to develop comprehensive design documents including a virtual model.
       
     - icon : ti-panel # themify icon pack : https://themify.me/themify-icons
-      title : Easy Customization
+      title : Design touch
       content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
 
     - icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
