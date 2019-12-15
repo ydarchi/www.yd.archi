@@ -22,3 +22,8 @@ funfacts:
     - title : "Cups of Coffee"
       icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
       count : "250"
+ 
+    # counter item loop
+    - title : "Cats"
+      icon : "ti-github" # themify icon pack : https://themify.me/themify-icons
+      count : "2"

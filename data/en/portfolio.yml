@@ -3,11 +3,11 @@ portfolio:
   enable : true
   title : Our Works
   filter_List :
-    - filter_Type : photography
-      filter_Title : Photography
+    - filter_Type : housing
+      filter_Title : Housing
       
-    - filter_Type : design
-      filter_Title : Design
+    - filter_Type : commercial
+      filter_Title : Commercial
       
     - filter_Type : development
       filter_Title : Development
