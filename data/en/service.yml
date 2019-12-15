@@ -4,19 +4,19 @@ service:
   title : Our Services
   service_Item :
     - icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      title : WordPress Theme
+      title : Layout design
       content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
       
     - icon : ti-layout # themify icon pack : https://themify.me/themify-icons
-      title : Responsive Design
+      title : Urbanism permit
       content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
       
     - icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
-      title : Media &amp; Advertisement
+      title : Graphic Design
       content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
       
     - icon : ti-palette # themify icon pack : https://themify.me/themify-icons
-      title : Graphic Design
+      title : Building's expertises
       content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
       
     - icon : ti-package # themify icon pack : https://themify.me/themify-icons

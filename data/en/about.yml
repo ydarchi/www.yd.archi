@@ -5,12 +5,11 @@ about:
   about_Item :
   - icon : ti-ruler-pencil # themify icon pack : https://themify.me/themify-icons
     title : We're Creative
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+    content : Our work stands as a balance between Rigor and Creativity which are our main assets. As we design quality spaces, we always try our best to deliver a Sober and Clear work.
 
-  - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
+  - icon : ti-thumb-up # themify icon pack : https://themify.me/themify-icons
     title : We're Professional
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
-
-  - icon : ti-thought # themify icon pack : https://themify.me/themify-icons
-    title : We're Genius
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+    content : We try our very best to provide a custom service according to your needs. We collect, we analyse, we plan, all the informations in order to deliver the best layouts and spaces
+  - icon : ti-home # themify icon pack : https://themify.me/themify-icons
+    title : We're Human
+    content : We take care and manage the relations between you and the administration to ensure the easiest way through the urbanism permit delivery process. Oh! and Yes, WE LOVE ANIMALS !
