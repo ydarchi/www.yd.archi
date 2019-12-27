@@ -1,16 +1,16 @@
 #################################### portfolio ###############################
 portfolio:
   enable : true
-  title : Our Works
+  title : Nos réalisations
   filter_List :
-    - filter_Type : photography
-      filter_Title : Photography
+    - filter_Type : logement
+      filter_Title : Logement
       
-    - filter_Type : design
-      filter_Title : Design
+    - filter_Type : commerces
+      filter_Title : Commerces
       
-    - filter_Type : development
-      filter_Title : Development
+    - filter_Type : developpement
+      filter_Title : en développement
 
   portfolio_Item :
     - types : ["design"]

@@ -4,21 +4,26 @@ funfacts:
   bg_Image : "images/backgrounds/bg-1.jpg"
   counter_Item:
     # counter item loop
-    - title : "Happy Clients"
+    - title : "Clients contents"
       icon : "ti-face-smile" # themify icon pack : https://themify.me/themify-icons
       count : "320"
     
     # counter item loop
-    - title : "Projects completed"
+    - title : "Projets complets"
       icon : "ti-archive" # themify icon pack : https://themify.me/themify-icons
       count : "350"
     
     # counter item loop
-    - title : "Positive feedback"
+    - title : "Retours positifs"
       icon : "ti-thumb-up" # themify icon pack : https://themify.me/themify-icons
       count : "158"
     
     # counter item loop
-    - title : "Cups of Coffee"
+    - title : "Tasses de café"
       icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
       count : "250"
+ 
+    # counter item loop
+    - title : "Chats"
+      icon : "ti-github" # themify icon pack : https://themify.me/themify-icons
+      count : "2"

@@ -1,28 +1,28 @@
 ################################# Service #################################
 service:
   enable : true
-  title : Our Services
+  title : Nos Services
   service_Item :
     - icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      title : WordPress Theme
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      title : Aménagement intérieur
+      content : Nous vous guidons à travers les étapes nécessaires au réaménagement intérieur de votre habitation afin de trouver la disposition optimale répondant à vos besoins.
       
     - icon : ti-layout # themify icon pack : https://themify.me/themify-icons
-      title : Responsive Design
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      title : Permis d'urbanisme
+      content : Nous prenons en charge votre projet de construction et établissons/collectons les différents documents nécessaires à n'importe quelle demande urbanistique.
       
     - icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
-      title : Media &amp; Advertisement
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      title : Design
+      content : Après la récolte d'informations effectuée, nous pouvons prendre en charge la conception de votre design, logo, ou autre type d'inscriptions.
       
-    - icon : ti-palette # themify icon pack : https://themify.me/themify-icons
-      title : Graphic Design
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    - icon : ti-stamp # themify icon pack : https://themify.me/themify-icons
+      title : Expertises
+      content : Un architecte expert met ses compétences à l'épreuve afin de mener à bien différent types d'expertises après sinistres et en tirer des conclusions fiables.
       
-    - icon : ti-package # themify icon pack : https://themify.me/themify-icons
-      title : Apps Development
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    - icon : ti-eye # themify icon pack : https://themify.me/themify-icons
+      title : Réalité virtuelle
+      content : Nous serons bientôt en mesure de pouvoir vous offir l'opportunité de visiter virtuellement votre nouvelle habitation depuis l'extérieur mais aussi de l'intérieur de celle-ci.
       
     - icon : ti-pulse # themify icon pack : https://themify.me/themify-icons
-      title : Networking
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      title : Sous-traitance
+      content : Nous pouvons aussi prendre en charge certaines missions ponctuelles afin d'accélerer et d'alléger le travail de chacun.'

@@ -1,7 +1,7 @@
 ############################# call to action ##############################
 cta:
   enable : true
-  bg_Image : "images/backgrounds/bg-1.jpg"
+  bg_Image : "images/backgrounds/YD Logo.png"
   title : "Great Design & Incredible Features"
   content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
   button:
