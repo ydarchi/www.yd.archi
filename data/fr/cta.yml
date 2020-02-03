@@ -4,7 +4,7 @@ cta:
   bg_image : "images/backgrounds/bg-white-wall.jpg"
   bg_image_webp : "images/backgrounds/bg-white-wall.webp"
   title : "Design ingénieux & Astuces imparables"
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
+  content : "Nous tentons au mieux de conférer aux différents projets une identité reconnaissable à l'attention et à la qualité portée à chaque endroit du projet en termes d'optimisation des espaces et d'esthétique. De plus, nous vous fournissons des conseils appropriés pour agencer vos layouts intérieurs."
   button:
     enable : true
     label : "Commencez un projet avec nous"
