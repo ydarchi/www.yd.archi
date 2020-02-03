@@ -2,27 +2,27 @@
 service:
   enable : true
   title : Nos Services
-  service_Item :
+  service_item :
     - icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      title : Aménagement intérieur
+      name : Aménagement intérieur
       content : Nous vous guidons à travers les étapes nécessaires au réaménagement intérieur de votre habitation afin de trouver la disposition optimale répondant à vos besoins.
       
     - icon : ti-layout # themify icon pack : https://themify.me/themify-icons
-      title : Permis d'urbanisme
+      name : Permis d'urbanisme
       content : Nous prenons en charge votre projet de construction et établissons/collectons les différents documents nécessaires à n'importe quelle demande urbanistique.
       
     - icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
-      title : Design
+      name : Design
       content : Après la récolte d'informations effectuée, nous pouvons prendre en charge la conception de votre design, logo, ou autre type d'inscriptions.
       
     - icon : ti-stamp # themify icon pack : https://themify.me/themify-icons
-      title : Expertises
+      name : Expertises
       content : Un architecte expert met ses compétences à l'épreuve afin de mener à bien différent types d'expertises après sinistres et en tirer des conclusions fiables.
       
     - icon : ti-eye # themify icon pack : https://themify.me/themify-icons
-      title : Réalité virtuelle
+      name : Réalité virtuelle
       content : Nous serons bientôt en mesure de pouvoir vous offir l'opportunité de visiter virtuellement votre nouvelle habitation depuis l'extérieur mais aussi de l'intérieur de celle-ci.
       
     - icon : ti-pulse # themify icon pack : https://themify.me/themify-icons
-      title : Sous-traitance
+      name : Sous-traitance
       content : Nous pouvons aussi prendre en charge certaines missions ponctuelles afin d'accélerer et d'alléger le travail de chacun.'

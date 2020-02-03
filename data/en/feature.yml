@@ -2,9 +2,10 @@
 feature:
   enable : true
   image : images/about/about-business-man.jpg
+  image_webp : images/about/about-business-man.webp
   title : YD Architecture
   content : "YD Architecture is a Belgium based architecture agency providing a panel of appropriate solutions in the process of a construction project."
-  feature_Item : 
+  feature_item :
     - icon : ti-world # themify icon pack : https://themify.me/themify-icons
       title : Measuring mission
       content : We take care of the precise measuring of your own land(s) or building(s) to develop comprehensive design documents including a virtual model.

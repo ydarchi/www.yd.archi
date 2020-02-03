@@ -2,7 +2,7 @@
 about:
   enable : true
   title : À propos de nous
-  about_Item :
+  about_item :
   - icon : ti-ruler-pencil # themify icon pack : https://themify.me/themify-icons
     title : Nous sommes créatifs
     content : Notre travail se situe en équilibre entre la rigueur et la créativité qui sont nos principaux atouts. Quand nous concevons des espaces de qualité, nous mettons tout en oeuvre pour conférer au projet clarté et sobrieté.
@@ -10,6 +10,7 @@ about:
   - icon : ti-thumb-up # themify icon pack : https://themify.me/themify-icons
     title : Nous sommes professionels
     content : Nous nous efforçons de fournir un travail sur mesure répondant de manière précise à notre mission. Nous récoltons, nous analysons et nous planifions toutes les opérations pour vous fournir les meilleurs espaces et les meilleurs aménagements.
+
   - icon : ti-home # themify icon pack : https://themify.me/themify-icons
     title : Nous sommes humains
     content : Nous vous allégons les démarches administratives et nous vous assurons la voie la plus facile envers l'obtention de votre permis d'urbanisme. Oh! et oui, NOUS AIMONS LES ANIMAUX !

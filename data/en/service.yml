@@ -2,27 +2,27 @@
 service:
   enable : true
   title : Our Services
-  service_Item :
+  service_item :
     - icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      title : Layout design
+      name : Layout design
       content : We help you to get the best of your existing or future house by offering you THE layout that efficiently fits the configuration of your spaces.
       
     - icon : ti-layout # themify icon pack : https://themify.me/themify-icons
-      title : Urbanism permit
+      name : Urbanism permit
       content : We take care of your construction project by offering the full services in the process of introducting every single needed document to any urbanism queries.
       
     - icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
-      title : Graphic Design
+      name : Graphic Design
       content : After gathering a maximum of info. We take care of the conception of your design, sign, logo, or any type of design, inscription or any other type of backing.
       
     - icon : ti-stamp # themify icon pack : https://themify.me/themify-icons
-      title : Building's expertises
+      name : Building's expertises
       content : An expert architect puts his competences to perform different types of expertises concerning any type of damages, and reach to a conclusion.
       
     - icon : ti-eye # themify icon pack : https://themify.me/themify-icons
-      title : Virtual reality
+      name : Virtual reality
       content : We will soon be offering you the opportunity to virtually visit the inside of your future house by setting up a virtual headset in our studios.
       
     - icon : ti-pulse # themify icon pack : https://themify.me/themify-icons
-      title : Networking
+      name : Networking
       content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.

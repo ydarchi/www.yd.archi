@@ -2,13 +2,14 @@
 feature:
   enable : true
   image : images/about/about-business-man.jpg
+  image_webp : images/about/about-business-man.webp
   title : YD Architecture
   content : "YD Architecture est une agence d'architecture basée en Belgique agissant dans le domaine de l'architecture pour vous fournir les solutions les plus appropriées dans le domaine de la construction."
-  feature_Item : 
+  feature_item :
     - icon : ti-world # themify icon pack : https://themify.me/themify-icons
       title : Mission de mesurage
       content : Nous prenons en charge le mesurage précis de votre/vos parcelle(s) et/ou de bâtiment(s) afin de développer des documents précis et compréhensifs, mais également des modèles 3D.
-      
+
     - icon : ti-panel # themify icon pack : https://themify.me/themify-icons
       title : Design touch
       content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
@@ -16,7 +17,7 @@ feature:
     - icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
       title : SEO Optimized
       content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
-      
+
     - icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
       title : Easy Customization
       content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe

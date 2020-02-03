@@ -2,7 +2,7 @@
 team:
   enable : true
   title : Our Team
-  team_Member :
+  team_member :
     # team member loop
     - image : images/team/team-1.jpg
       name : Abul Mal Muhit
