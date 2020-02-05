@@ -12,46 +12,46 @@ disqusShortname = "" # get your shortname form here : https://disqus.com
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 # disable language
-disableLanguages = [""]
+disableLanguages = []
 
 ############################# Plugins ##########################
 # css plugins
 [[params.plugins.css]]
-URL = "plugins/bootstrap/bootstrap.min.css"
+link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
-URL = "plugins/themify-icons/themify-icons.css"
+link = "plugins/themify-icons/themify-icons.css"
 [[params.plugins.css]]
-URL = "plugins/animate-css/animate.css"
+link = "plugins/animate-css/animate.css"
 [[params.plugins.css]]
-URL = "plugins/magnific-popup/magnific-popup.css"
+link = "plugins/magnific-popup/magnific-popup.css"
 [[params.plugins.css]]
-URL = "plugins/slick/slick.css"
+link = "plugins/slick/slick.css"
 [[params.plugins.css]]
-URL = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
+link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
 [[params.plugins.css]]
-URL = "https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+link = "https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
 [[params.plugins.css]]
-URL = "plugins/leaflet-map/leaflet.css"
+link = "plugins/leaflet-map/leaflet.css"
 
 # js plugins
 [[params.plugins.js]]
-URL = "plugins/jquery/jquery.min.js"
+link = "plugins/jquery/jquery.min.js"
 [[params.plugins.js]]
-URL = "plugins/bootstrap/bootstrap.min.js"
+link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
-URL = "plugins/slick/slick.min.js"
+link = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
-URL = "plugins/shuffle/shuffle.min.js"
+link = "plugins/shuffle/shuffle.min.js"
 [[params.plugins.js]]
-URL = "plugins/magnific-popup/jquery.magnific-popup.min.js"
+link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
 [[params.plugins.js]]
-URL = "plugins/wow/wow.min.js"
+link = "plugins/wow/wow.min.js"
 [[params.plugins.js]]
-URL = "plugins/lazy-load/lozad.min.js"
+link = "plugins/lazy-load/lozad.min.js"
 [[params.plugins.js]]
-URL = "https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+link = "https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
 [[params.plugins.js]]
-URL = "plugins/leaflet-map/leaflet.js"
+link = "plugins/leaflet-map/leaflet.js"
 
 ############################# Navigation ##################################
 [menu]
@@ -109,27 +109,27 @@ preloader = "images/logo.png"
 enable = true
 
 ############################# social icons ##########################
-[[params.social_Icon]]
+[[params.social]]
 icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
 link = "#"
 
-[[params.social_Icon]]
+[[params.social]]
 icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
 link = "#"
 
-[[params.social_Icon]]
+[[params.social]]
 icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
 link = "#"
 
-[[params.social_Icon]]
+[[params.social]]
 icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
 link = "#"
 
-[[params.social_Icon]]
+[[params.social]]
 icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
 link = "#"
 
-[[params.social_Icon]]
+[[params.social]]
 icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
 link = "#"
 
