@@ -1,22 +1,22 @@
 ################################# Skill ##################################
-skill:
+Types de projets:
   enable : true
-  title : Our Skills
-  subtitle : We’ve skilled in wide range of web and Other digital market tools.
-  content : Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magni explicabo cum aperiam recusandae sunt accusamus totam. Quidem quos fugiat sapiente numquam accusamus quas hic, itaque in libero reiciendis tempora!
+  title : Types de projets
+  subtitle : Nous vous accompagnons à travers divers types de projets
+  content : 
   image : images/about/company-growth.webp
   skill_item :
-    - name :  Business Development
-      percent : 90%
+    - name :  Logements privatifs
+      percent : 30%
       
-    - name :  Analysis
-      percent : 70%
+    - name :  Logements groupés
+      percent : 5%
       
-    - name :  Design
-      percent : 80%
+    - name :  Bâtiments commerciaux
+      percent : 15%
       
-    - name :  IOS Development
-      percent : 95%
+    - name :  Bâtiments industriels
+      percent : 20%
       
-    - name :  Andriod Development
-      percent : 75%
+    - name :  Aménagements intérieurs
+      percent : 30%
