@@ -1,7 +1,8 @@
 ############################# call to action ##############################
 cta:
   enable : true
-  bg_Image : "images/backgrounds/bg-1.jpg"
+  bg_image : "images/backgrounds/bg-white-wall.jpg"
+  bg_image_webp : "images/backgrounds/bg-white-wall.webp"
   title : "Great Design & Incredible Features"
   content : "We try our best to give our project a special touch in therms of quality and design, plus we give you the best advices to shape your interior layouts"
   button:
