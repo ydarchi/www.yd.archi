@@ -4,11 +4,11 @@ portfolio:
   title : Our Works
   portfolio_item :
     # portfolio item loop
-    - name : Tag Design
-      image : images/portfolio/portfolio-1.jpg
-      image_webp : images/portfolio/portfolio-1.webp
-      categories : ["design"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+    - name : Layout LA
+      image : images/portfolio/mahieu_cover.jpg
+      image_webp : images/portfolio/mahieu_cover.webp
+      categories : ["House extension MG"]
+      content : House extension project and new layout for the entire place.
       link : "#"
 
     # portfolio item loop
