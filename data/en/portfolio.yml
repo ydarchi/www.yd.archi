@@ -4,25 +4,25 @@ portfolio:
   title : Our Works
   portfolio_item :
     # portfolio item loop
-    - name : Layout LA
-      image : images/portfolio/mahieu_cover.jpg
-      image_webp : images/portfolio/mahieu_cover.webp
+    - name : MG Project
+      image : images/portfolio/mg_cover.jpg
+      image_webp : images/portfolio/mg_cover.webp
       categories : ["House extension"]
       content : House extension project and new layout for the entire place.
       link : "#"
 
     # portfolio item loop
-    - name : Sound system
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
-      categories : ["development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+    - name : LA Project
+      image : images/portfolio/la.jpg
+      image_webp : images/portfolio/la.webp
+      categories : ["New layout"]
+      content : Re-layout of two distinct attached houses to make one.
       link : "#"
 
     # portfolio item loop
     - name : Clock Product
-      image : images/portfolio/portfolio-3.jpg
-      image_webp : images/portfolio/portfolio-3.webp
+      image : images/portfolio/lp.jpg
+      image_webp : images/portfolio/lp.webp
       categories : ["design", "development"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
       link : "#"
