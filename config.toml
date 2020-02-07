@@ -49,8 +49,6 @@ link = "plugins/wow/wow.min.js"
 [[params.plugins.js]]
 link = "plugins/lazy-load/lozad.min.js"
 [[params.plugins.js]]
-link = "https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
-[[params.plugins.js]]
 link = "plugins/leaflet-map/leaflet.js"
 
 ############################# Navigation ##################################
@@ -92,8 +90,8 @@ link = "plugins/leaflet-map/leaflet.js"
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "Responsive Multipurpose Parallax HTML5 Template"
-author = "Themefisher"
+description = "YD Architecture description"
+author = "YD Architecture author"
 # Google Analitycs
 google_analitycs_id = "" # Your ID
 # post share
@@ -107,6 +105,7 @@ preloader = "images/logo.png"
 # google map
 [params.map]
 enable = true
+gmap_api = "https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
 
 ############################# social icons ##########################
 [[params.social]]
