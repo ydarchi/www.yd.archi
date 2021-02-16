@@ -51,41 +51,6 @@ link = "plugins/leaflet-map/leaflet.css"
 #[[params.plugins.js]]
 #link = "plugins/leaflet-map/leaflet.js"
 
-############################# Navigation ##################################
-[menu]
-
-  [[menu.main]]
-  name = "About Us"
-  URL = "about"
-  weight = 1
-
-  [[menu.main]]
-  name = "Service"
-  URL = "services"
-  weight = 2
-
-  [[menu.main]]
-  name = "Portfolio"
-  URL = "portfolio"
-  weight = 3
-
-  [[menu.main]]
-  name = "Team"
-  URL = "team"
-  weight = 4
-
-  [[menu.main]]
-  name = "Blog"
-  URL = "blog"
-  weight = 6
-
-  [[menu.main]]
-  name = "Contact"
-  URL = "contact"
-  weight = 7
-
-
-
 ############################# Default Parameters ##########################
 [params]
 logo = "images/logo.png"
@@ -107,46 +72,3 @@ preloader = "images/logo.png"
 enable = true
 gmap_api = "https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
 
-############################# social icons ##########################
-[[params.social]]
-icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
-link = "http://www.facebook.com/www.yd.archi/"
-
-[[params.social]]
-icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
-link = "#"
-
-################################# language ################################
-[Languages]
-
-  ################################ English Language ########################
-  [Languages.en]
-  languageName = "En"
-  languageCode = "en-us"
-  contentDir = "content/english"
-  weight = 1
-  home = "Home"
-
-  ################################ France Language ########################
-  [Languages.fr]
-  languageName = "Fr"
-  languageCode = "fr-fr"
-  contentDir = "content/french"
-  weight = 2
-  home = "Accueil"
