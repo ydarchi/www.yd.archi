@@ -15,7 +15,9 @@ L.tileLayer(
     }
     ).addTo(mymap);
 
+var popup = '<b>YD Architecture</b><dl><dt>Contact:</dt><dd><a href="mailto:info@yd.archi">info@yd.archi</a></dd><dt>Phone:</dt><dd><a href="tel:+32488002674">+32 488 002 674</a></dd><dt>Facebook:</dt><dd><a href="https://facebook.com/www.yd.archi">Facebook page</a></dd></dl>';
+
 L.marker([50.45966720581055, 3.9412269592285156])
     .addTo(mymap)
-    .bindPopup("<b>YD Architecture</b>")
+    .bindPopup(popup)
     .openPopup();

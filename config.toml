@@ -1,7 +1,7 @@
 ################################# Default configuration ###################
 baseURL = "https://www.yd.archi"
 title = "YD Architecture"
-theme = "meghna-hugo"
+# theme = "meghna-hugo"
 # post pagination
 paginate = "6"
 # post excerpt
@@ -16,38 +16,38 @@ disableLanguages = []
 
 ############################# Plugins ##########################
 # css plugins
+#[[params.plugins.css]]
+#link = "plugins/bootstrap/bootstrap.min.css"
+#[[params.plugins.css]]
+#link = "plugins/themify-icons/themify-icons.css"
+#[[params.plugins.css]]
+#link = "plugins/animate-css/animate.css"
+#[[params.plugins.css]]
+#link = "plugins/magnific-popup/magnific-popup.css"
+#[[params.plugins.css]]
+#link = "plugins/slick/slick.css"
+#[[params.plugins.css]]
+#link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
 [[params.plugins.css]]
-link = "plugins/bootstrap/bootstrap.min.css"
-[[params.plugins.css]]
-link = "plugins/themify-icons/themify-icons.css"
-[[params.plugins.css]]
-link = "plugins/animate-css/animate.css"
-[[params.plugins.css]]
-link = "plugins/magnific-popup/magnific-popup.css"
-[[params.plugins.css]]
-link = "plugins/slick/slick.css"
-[[params.plugins.css]]
-link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
-[[params.plugins.css]]
-link = "https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+link = "https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
 [[params.plugins.css]]
 link = "plugins/leaflet-map/leaflet.css"
 
 # js plugins
-[[params.plugins.js]]
-link = "plugins/jquery/jquery.min.js"
-[[params.plugins.js]]
-link = "plugins/bootstrap/bootstrap.min.js"
-[[params.plugins.js]]
-link = "plugins/slick/slick.min.js"
-[[params.plugins.js]]
-link = "plugins/shuffle/shuffle.min.js"
-[[params.plugins.js]]
-link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
-[[params.plugins.js]]
-link = "plugins/wow/wow.min.js"
-[[params.plugins.js]]
-link = "plugins/lazy-load/lozad.min.js"
+#[[params.plugins.js]]
+#link = "plugins/jquery/jquery.min.js"
+#[[params.plugins.js]]
+#link = "plugins/bootstrap/bootstrap.min.js"
+#[[params.plugins.js]]
+#link = "plugins/slick/slick.min.js"
+#[[params.plugins.js]]
+#link = "plugins/shuffle/shuffle.min.js"
+#[[params.plugins.js]]
+#link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
+#[[params.plugins.js]]
+#link = "plugins/wow/wow.min.js"
+#[[params.plugins.js]]
+#link = "plugins/lazy-load/lozad.min.js"
 [[params.plugins.js]]
 link = "plugins/leaflet-map/leaflet.js"
 
@@ -105,7 +105,7 @@ preloader = "images/logo.png"
 # google map
 [params.map]
 enable = true
-gmap_api = "https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+gmap_api = "https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
 
 ############################# social icons ##########################
 [[params.social]]
