@@ -48,8 +48,8 @@ link = "plugins/leaflet-map/leaflet.css"
 #link = "plugins/wow/wow.min.js"
 #[[params.plugins.js]]
 #link = "plugins/lazy-load/lozad.min.js"
-[[params.plugins.js]]
-link = "plugins/leaflet-map/leaflet.js"
+#[[params.plugins.js]]
+#link = "plugins/leaflet-map/leaflet.js"
 
 ############################# Navigation ##################################
 [menu]
