@@ -31,6 +31,17 @@ const map = new maplibregl.Map({
   antialias: true
 });
 
+/*
+function rotateCamera(timestamp) {
+  // clamp the rotation between 0 -360 degrees
+  // Divide timestamp by 100 to slow rotation to ~10 degrees / sec
+  map.rotateTo((timestamp / 1000) % 360, { duration: 0 });
+
+  // Request the next frame of the animation.
+  requestAnimationFrame(rotateCamera);
+}
+*/
+
 map.addControl(new maplibregl.AttributionControl({
   compact: true,
   customAttribution: 'YD Architecture'
@@ -65,6 +76,8 @@ var popup = new maplibregl.Popup({
   .addTo(map);
 
 map.on('load', function () {
+  //rotateCamera(0);
+
   map.addSource('places', coordinates);
 
   map.addLayer({
@@ -78,6 +91,12 @@ map.on('load', function () {
       'circle-stroke-width': 1,
       'circle-opacity': 0.5
     }
+  });
+
+  map.on('click', 'places', function (e) {
+    map.flyTo({
+      center: e.features[0].geometry.coordinates
+    });
   });
 
   /*
