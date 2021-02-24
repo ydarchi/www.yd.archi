@@ -1,3 +1,4 @@
+var center = [3.9412269592285156, 50.45966720581055];
 var popupContent = '<img src="/images/favicon.png"/>&nbsp;<b>Architecture</b><dl><dt>Contact</dt><dd><a href="mailto:info@yd.archi">info@yd.archi</a></dd><dt>Phone</dt><dd><a href="tel:+32488002674">+32 488 002 674</a></dd><dt>Facebook</dt><dd><a href="https://facebook.com/www.yd.archi">YD Architecture</a></dd></dl>';
 
 const coordinates = {
@@ -12,21 +13,26 @@ const coordinates = {
         },
         'geometry': {
           'type': 'Point',
-          'coordinates': [3.9412269592285156, 50.45966720581055]
-
+          'coordinates': center
         }
       },
     ]
   }
 };
 
+var latBounds = [-180, 180];
+var lngBounds = [-90, 90];
+
+var lat = Math.random() * (latBounds[1]- latBounds[0] + 1) + latBounds[0];
+var lng = Math.random() * (lngBounds[1]- lngBounds[0] + 1) + lngBounds[0];
+
 const map = new maplibregl.Map({
   container: "mapid",
   style: "https://geoserveis.icgc.cat/contextmaps/fulldark.json",
-  center: [3.9412269592285156, 50.45966720581055],
-  zoom: 4,
+  center: [lat, lng],
+  zoom: 6,
   pitch: 60,
-  bearing: -90,
+  bearing: Math.floor(Math.random() * 360),
   attributionControl: false,
   antialias: true
 });
@@ -71,24 +77,21 @@ var popup = new maplibregl.Popup({
     closeOnClick: false,
     closeOnMove: false
   })
-  .setLngLat([3.9412269592285156, 50.45966720581055])
+  .setLngLat(center)
   .setHTML(popupContent)
   .addTo(map);
-
-map.on('load', function () {
-  //rotateCamera(0);
 
   map.flyTo({
     zoom: 15,
     bearing: 0,
+    pitch: 60,
     speed: 0.1,
     curve: 1,
-    easing: function (t) {
-      return t;
-    },
-    essential: true
+    essential: true,
+    center: center
   });
 
+map.on('load', function () {
   map.addSource('places', coordinates);
 
   map.addLayer({
@@ -106,25 +109,11 @@ map.on('load', function () {
 
   map.on('click', 'places', function (e) {
     map.flyTo({
-       // These options control the ending camera position: centered at
-    // the target, at zoom level 9, and north up.
-    bearing: 0,
-
-    // These options control the flight curve, making it move
-    // slowly and zoom out almost completely before starting
-    // to pan.
-    speed: 0.2, // make the flying slow
-    curve: 2, // change the speed at which it zooms out
-
-    // This can be any easing function: it takes a number between
-    // 0 and 1 and returns another number between 0 and 1.
-    easing: function (t) {
-      return t;
-    },
-
-    // this animation is considered essential with respect to prefers-reduced-motion
-    essential: true,
-    center: e.features[0].geometry.coordinates
+      bearing: 0,
+      speed: 0.1,
+      curve: 1,
+      essential: true,
+      center: e.features[0].geometry.coordinates
     });
   });
 
