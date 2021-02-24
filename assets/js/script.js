@@ -24,7 +24,7 @@ const map = new maplibregl.Map({
   container: "mapid",
   style: "https://geoserveis.icgc.cat/contextmaps/fulldark.json",
   center: [3.9412269592285156, 50.45966720581055],
-  zoom: 15,
+  zoom: 4,
   pitch: 60,
   bearing: 150,
   attributionControl: false,
@@ -78,6 +78,28 @@ var popup = new maplibregl.Popup({
 map.on('load', function () {
   //rotateCamera(0);
 
+  map.flyTo({
+    // These options control the ending camera position: centered at
+    // the target, at zoom level 9, and north up.
+    zoom: 15,
+    bearing: 0,
+
+    // These options control the flight curve, making it move
+    // slowly and zoom out almost completely before starting
+    // to pan.
+    speed: 0.2, // make the flying slow
+    curve: 2, // change the speed at which it zooms out
+
+    // This can be any easing function: it takes a number between
+    // 0 and 1 and returns another number between 0 and 1.
+    easing: function (t) {
+      return t;
+    },
+
+    // this animation is considered essential with respect to prefers-reduced-motion
+    essential: true
+  });
+
   map.addSource('places', coordinates);
 
   map.addLayer({
@@ -95,7 +117,25 @@ map.on('load', function () {
 
   map.on('click', 'places', function (e) {
     map.flyTo({
-      center: e.features[0].geometry.coordinates
+       // These options control the ending camera position: centered at
+    // the target, at zoom level 9, and north up.
+    bearing: 0,
+
+    // These options control the flight curve, making it move
+    // slowly and zoom out almost completely before starting
+    // to pan.
+    speed: 0.2, // make the flying slow
+    curve: 2, // change the speed at which it zooms out
+
+    // This can be any easing function: it takes a number between
+    // 0 and 1 and returns another number between 0 and 1.
+    easing: function (t) {
+      return t;
+    },
+
+    // this animation is considered essential with respect to prefers-reduced-motion
+    essential: true,
+    center: e.features[0].geometry.coordinates
     });
   });
 
