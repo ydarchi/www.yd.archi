@@ -26,7 +26,7 @@ const map = new maplibregl.Map({
   center: [3.9412269592285156, 50.45966720581055],
   zoom: 4,
   pitch: 60,
-  bearing: 150,
+  bearing: -90,
   attributionControl: false,
   antialias: true
 });
@@ -79,24 +79,13 @@ map.on('load', function () {
   //rotateCamera(0);
 
   map.flyTo({
-    // These options control the ending camera position: centered at
-    // the target, at zoom level 9, and north up.
     zoom: 15,
     bearing: 0,
-
-    // These options control the flight curve, making it move
-    // slowly and zoom out almost completely before starting
-    // to pan.
-    speed: 0.2, // make the flying slow
-    curve: 2, // change the speed at which it zooms out
-
-    // This can be any easing function: it takes a number between
-    // 0 and 1 and returns another number between 0 and 1.
+    speed: 0.1,
+    curve: 1,
     easing: function (t) {
       return t;
     },
-
-    // this animation is considered essential with respect to prefers-reduced-motion
     essential: true
   });
 
