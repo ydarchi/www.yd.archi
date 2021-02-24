@@ -25,6 +25,8 @@ const map = new maplibregl.Map({
   style: "https://geoserveis.icgc.cat/contextmaps/fulldark.json",
   center: [3.9412269592285156, 50.45966720581055],
   zoom: 15,
+  pitch: 60,
+  bearing: 150,
   attributionControl: false,
   antialias: true
 });
