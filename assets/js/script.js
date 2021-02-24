@@ -1,30 +1,109 @@
-var mymap = L.map('mapid', {scrollWheelZoom: false})
-    .setView(
-        [50.45966720581055, 3.9412269592285156],
-        13
-    );
+var popupContent = '<img src="/images/favicon.png"/>&nbsp;<b>Architecture</b><dl><dt>Contact</dt><dd><a href="mailto:info@yd.archi">info@yd.archi</a></dd><dt>Phone</dt><dd><a href="tel:+32488002674">+32 488 002 674</a></dd><dt>Facebook</dt><dd><a href="https://facebook.com/www.yd.archi">YD Architecture</a></dd></dl>';
 
-L.tileLayer(
-    'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw',
-    {
-      maxZoom: 18,
-      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
-        '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-        'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-      id: 'mapbox/dark-v10'
-    }
-    ).addTo(mymap);
+const coordinates = {
+  'type': 'geojson',
+  'data': {
+    'type': 'FeatureCollection',
+    'features': [
+      {
+        'type': 'Feature',
+        'properties': {
+          'description': popupContent
+        },
+        'geometry': {
+          'type': 'Point',
+          'coordinates': [3.9412269592285156, 50.45966720581055]
 
-var popupContent = '<b>YD Architecture</b><dl><dt>Contact</dt><dd><a href="mailto:info@yd.archi">info@yd.archi</a></dd><dt>Phone</dt><dd><a href="tel:+32488002674">+32 488 002 674</a></dd><dt>Facebook</dt><dd><a href="https://facebook.com/www.yd.archi">Facebook page</a></dd></dl>';
-var popup = L.popup(
+        }
+      },
+    ]
+  }
+};
+
+const map = new maplibregl.Map({
+  container: "mapid",
+  style: "https://geoserveis.icgc.cat/contextmaps/fulldark.json",
+  center: [3.9412269592285156, 50.45966720581055],
+  zoom: 15,
+  attributionControl: false,
+  antialias: true
+});
+
+map.addControl(new maplibregl.AttributionControl({
+  compact: true,
+  customAttribution: 'YD Architecture'
+}));
+
+map.addControl(new maplibregl.NavigationControl(
   {
-  closeOnClick: false,
-  autoClose: false,
-  closeButton: false
-}
-).setContent(popupContent);
+    'visualizePitch': true,
+    'showCompass': true,
+    'showZoom': true
+  }
+));
 
-L.marker([50.45966720581055, 3.9412269592285156])
-    .addTo(mymap)
-    .bindPopup(popup)
-    .openPopup();
+map.addControl(new maplibregl.FullscreenControl());
+
+map.addControl(
+  new maplibregl.GeolocateControl({
+    positionOptions: {
+      enableHighAccuracy: true
+    },
+    trackUserLocation: true
+  })
+);
+
+var popup = new maplibregl.Popup({
+    closeButton: false,
+    closeOnClick: false,
+    closeOnMove: false
+  })
+  .setLngLat([3.9412269592285156, 50.45966720581055])
+  .setHTML(popupContent)
+  .addTo(map);
+
+map.on('load', function () {
+  map.addSource('places', coordinates);
+
+  map.addLayer({
+    'id': 'places',
+    'type': 'circle',
+    'source': 'places',
+    'paint': {
+      'circle-radius': 10,
+      'circle-color': '#FF0000',
+      'circle-stroke-color': 'white',
+      'circle-stroke-width': 1,
+      'circle-opacity': 0.5
+    }
+  });
+
+  /*
+  map.on('click', 'places', function (e) {
+    var coordinates = e.features[0].geometry.coordinates.slice();
+    var description = e.features[0].properties.description;
+
+    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+      coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+    }
+
+    new maplibregl.Popup({
+      closeButton: false,
+      closeOnClick: false,
+      closeOnMove: false
+    })
+      .setLngLat(coordinates)
+      .setHTML(description)
+      .addTo(map);
+  });
+
+  map.on('mouseenter', 'places', function () {
+    map.getCanvas().style.cursor = 'pointer';
+  });
+
+  map.on('mouseleave', 'places', function () {
+    map.getCanvas().style.cursor = '';
+  });
+  */
+});
+

@@ -13,19 +13,22 @@ html, body {
   width: 100%;
 }
 
-dl {
-        padding: 10px;
+.mapboxgl-popup-content {
+    white-space: nowrap;
 }
-dt {
-float: left;
-clear: left;
-width: 100px;
-text-align: left;
+.mapboxgl-popup-content dl {
+  padding: 10px;
 }
-dt::after {
-content: ":";
+.mapboxgl-popup-content dt {
+  float: left;
+  clear: left;
+  width: 100px;
+  text-align: left;
 }
-dd {
-margin: 0 0 0 110px;
-padding: 0 0 0.5em 0;
+.mapboxgl-popup-content dt::after {
+  content: ":";
+}
+.mapboxgl-popup-content dd {
+  margin: 0 0 0 110px;
+  padding: 0 0 0.5em 0;
 }
