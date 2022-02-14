@@ -33,7 +33,7 @@ disableLanguages = []
 #[[params.plugins.css]]
 #link = "plugins/leaflet-map/leaflet.css"
 [[params.plugins.css]]
-link = "https://unpkg.com/maplibre-gl@1.15.2/dist/maplibre-gl.css"
+link = "https://unpkg.com/maplibre-gl@2.1.6/dist/maplibre-gl.css"
 
 # js plugins
 #[[params.plugins.js]]
@@ -53,7 +53,7 @@ link = "https://unpkg.com/maplibre-gl@1.15.2/dist/maplibre-gl.css"
 #[[params.plugins.js]]
 #link = "plugins/leaflet-map/leaflet.js"
 [[params.plugins.js]]
-link = "https://unpkg.com/maplibre-gl@1.15.2/dist/maplibre-gl.js"
+link = "https://unpkg.com/maplibre-gl@2.1.6/dist/maplibre-gl.js"
 
 ############################# Default Parameters ##########################
 [params]
@@ -62,7 +62,7 @@ logo = "images/logo.png"
 description = "YD Architecture"
 author = "YD Architecture"
 # Google Analitycs
-google_analitycs_id = "" # Your ID
+# google_analitycs_id = "" # Your ID
 # post share
 post_share = true
 
